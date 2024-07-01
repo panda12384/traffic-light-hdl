@@ -13,6 +13,7 @@ This project deals with the basic design of a T-shaped road for traffic light co
 
 A traffic light system is an electronic device that assigns right of way at an intersection or crossing or street crossing using displaying the standard red, yellow, and green colored indications. In addition, it also works in conjunction with pedestrian displays to assign pedestrian crossing right of way.
 
+
 A traffic light, also known as a traffic signal, stop light, or stop-and-go light, is a signaling device positioned at a road intersection, pedestrian crossing, or other location to indicate when it is safe to drive, ride, or walk using a universal color code. Nowadays,
 
 A red light meant traffic in all directions had to stop.
@@ -20,3 +21,14 @@ A yellow light meant cross-town traffic would have to slow and,
 A green light would be to go or proceed.
 The problem of heavy jam happens because of never configuring the level of jam in each way and setting the delay time. Another problem occurs when there is no jam, but the waiting continues. The solution for these problems is to determine the level of jam and set the delay time. This problem needs evaluation by the traffic policeman, and then there is a need for manual control of the traffic. The target of this paper is to propose a system that provides solutions for all the above problems with the least possible cost. Traffic light controller (TLC) can be implemented using microcontroller, FPGA, and ASIC design. FPGA has many advantages over microcontrollers, some of these advantages are; the speed, number of input/output ports, and performance which are all very important in TLC design, at the same time ASIC design is more expensive than FPGA. Nowadays, FPGA has become one of the most successful of today’s technologies for developing systems that require real-time operation. FPGA is a re-configurable integrated circuit that consists of two-dimensional arrays of logic blocks and flip-flops with an electrically programmable interconnection between logic blocks. The reconfiguration property enables fast prototyping and updates for hardware devices even after market launch. Most of the TLCs implemented on FPGA are simple ones that have been implemented as examples of Finite State Machine (FSM).
 
+![StateTable](https://github.com/panda12384/traffic-light-hdl/assets/160568759/c30e86e4-c5eb-48d6-aee4-c9c84d81c5c2)
+
+The output of the project:
+
+![Screenshot 2024-07-01 210856](https://github.com/panda12384/traffic-light-hdl/assets/160568759/3f1cdda1-a8bd-4dbe-9a0f-fa8ffc80f527)
+
+The output state represents:
+
+**0 refers to red 
+1 refers to green
+2 refers to yellow**
